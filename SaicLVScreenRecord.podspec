@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/grvlv/SaicLVScreenRecord.git", :tag => "#{spec.version}" }
   spec.source_files  = "SaicLVScreenRecord/*"
   spec.requires_arc = true
-  spec.ios.deployment_target = '8.0'
+  spec.ios.deployment_target = '12.0'
   spec.dependency 'AFNetworking'
   spec.frameworks = 'ReplayKit','AVFoundation','Photos'
 end
