@@ -9,6 +9,6 @@ Pod::Spec.new do |spec|
   spec.source_files  = "SaicLVScreenRecord/*"
   spec.requires_arc = true
   spec.ios.deployment_target = '12.0'
-  spec.dependency 'AFNetworking'
+  spec.dependency 'AFNetworking', '~> 3.2.1'
   spec.frameworks = 'ReplayKit','AVFoundation','Photos'
 end
