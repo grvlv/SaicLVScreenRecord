@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   spec.name         = "SaicLVScreenRecord"
   spec.version      = "1.0.0"
-  spec.summary      = "A clean and lightweight LVAnimator for your iOS and tvOS app."
+  spec.summary      = "录屏流处理合成文件和上传"
   spec.homepage     = "https://github.com/grvlv/SaicLVScreenRecord"
   spec.license      = "Copyright (c) 2019 GRV"
   spec.author       = { "grvlv" => "grv_lv@126.com" }
